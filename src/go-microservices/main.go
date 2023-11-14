@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"time"
 
-	details "github.com/satyazz123/go-microservices/details"
+	details "github.com/kunchalavikram1427/go-microservices/details"
 
 	"github.com/gorilla/mux"
 )
@@ -49,5 +49,5 @@ func main() {
 	r.HandleFunc("/", rootHandler)
 	r.HandleFunc("/details", detailsHandler)
 	log.Println("Server has started!!!")
-	log.Fatal(http.ListenAndServe(":80", r))
+	log.Fatal(http.ListenAndServe(":8080", r))
 }

@@ -1,2 +1,2 @@
 # KubeGlo
-This project exemplifies the implementation of a sophisticated microservices-oriented application through Kubernetes and Docker orchestration. It is intricately designed to handle essential aspects of a modern web service, including user authentication, messaging, data storage, and seamless inter-service communication.
+This project exemplifies the implementation of a sophisticated microservices-oriented application through Kubernetes and Docker orchestration.This application also uses multi stage build and heml charts
